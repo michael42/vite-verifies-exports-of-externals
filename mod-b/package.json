@@ -1,0 +1,10 @@
+{
+  "name": "mod-b",
+  "version": "1.0.0",
+  "main": "./build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'export const test = 42' > build/index.js"
+  },
+  "license": "ISC"
+}

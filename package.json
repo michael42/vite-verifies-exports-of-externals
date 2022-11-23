@@ -1,0 +1,10 @@
+{
+  "name": "vite-verifies-exports-of-externals",
+  "version": "1.0.0",
+  "description": "Reproduction example of vite sadly failing a build, because it tries to verify the exports of a package that is explicitly passed as external",
+  "workspaces": ["mod-a", "mod-b"],
+  "scripts": {
+    "build-a": "npm run build --workspace=mod-a",
+    "build-b": "npm run build --workspace=mod-b"
+  }
+}

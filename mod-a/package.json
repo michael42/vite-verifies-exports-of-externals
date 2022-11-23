@@ -1,0 +1,13 @@
+{
+  "name": "mod-a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build --ssr index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^3.2.4",
+    "mod-b": "file:../mod-b"
+  }
+}
